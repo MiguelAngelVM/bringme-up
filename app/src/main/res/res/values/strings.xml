@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">hackColima</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_acceso_chofer">AccesoChofer</string>
+    <string name="title_activity_chofer">Chofer</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="action_marker">Draw Marker</string>
+    <string name="action_poliline">Draw Polyline</string>
+    <string name="action_poligono">Draw Polygono</string>
+    <string name="action_clearmap">Clear Map</string>
+
+
+</resources>

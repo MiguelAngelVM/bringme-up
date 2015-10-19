@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="mx.edu.utem.hackcolima.AccesoChofer"
+    android:background="@drawable/bant">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="462dp"
+            android:layout_height="54dp"
+            android:orientation="vertical"
+            android:padding="0dp"
+            android:background="@drawable/boton">
+
+            <TextView
+                android:textSize="20dp"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Usuario"/>
+            <EditText
+                android:textColor="#fff"
+                android:id="@+id/etUsuarioo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                />
+        </LinearLayout>
+
+
+        <TextView
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="462dp"
+            android:layout_height="54dp"
+            android:orientation="vertical"
+            android:padding="0dp"
+            android:background="@drawable/boton">
+
+            <TextView
+                android:textSize="20dp"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Licencia"/>
+            <EditText
+                android:textColor="#fff"
+                android:id="@+id/etLicencia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnLogin"
+        android:onClick="login"
+        android:background="#000"
+        android:textColor="#fff"
+        android:text="Acceder"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
